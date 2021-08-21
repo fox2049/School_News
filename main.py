@@ -129,5 +129,5 @@ if __name__ == '__main__':
        msg = f.read().replace("|", " ").replace("-", " and ").replace("+", " plus ").replace("！", " ")
 
        print("正在发送新闻")
-       bot.sendMessage(me, string(msg))
+       bot.sendMessage(me, str(msg))
        
