@@ -130,3 +130,4 @@ if __name__ == '__main__':
 
        print("正在发送新闻")
        bot.sendMessage(me, string(msg))
+       
