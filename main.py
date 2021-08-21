@@ -129,4 +129,4 @@ if __name__ == '__main__':
        msg = f.read().replace("|", " ").replace("-", " and ").replace("+", " plus ").replace("！", " ")
 
        print("正在发送新闻")
-       bot.sendMessage(me, msg, "MarkdownV2")
+       bot.sendMessage(me, string(msg))
